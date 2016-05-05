@@ -7,6 +7,7 @@ export default Vue.extend({
   replace: false,
   vuex: {
     getters: {
+      title: state => state.title,
       path: state => state.route.path
     }
   }
